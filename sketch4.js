@@ -2,12 +2,12 @@
 
 var points = [];
 var multiply = 0.015;
-// var font;
+var font;
 var song;
 
 function preload() {
   song = loadSound("whitenoise.mp3");
-  // font = loadFont("plus1code.ttf");
+  font = loadFont("plus1code.ttf");
 }
 
 function setup() {
