@@ -7,15 +7,12 @@
 
  
 let message = "";
-var plus;
 
-function preload() {
-plus = loadFont('img/plus1code.ttf');
-}
+
+
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  textFont(plus);
   textSize(48);
   fill(196, 177, 139);
   noStroke();
