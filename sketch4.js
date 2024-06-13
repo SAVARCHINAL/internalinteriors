@@ -6,8 +6,8 @@ var font;
 var song;
 
 function preload() {
-  song = loadSound("img/whitenoise.mp3");
-  font = loadFont("img/plus1code.ttf");
+  song = loadSound("whitenoise.mp3");
+  font = loadFont("plus1code.ttf");
 }
 
 function setup() {
