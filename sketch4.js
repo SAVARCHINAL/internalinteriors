@@ -44,7 +44,6 @@ function keyPressed() {
 
   if (key === " ") {
     textSize(22);
-    textFont(font);
     fill(196, 177, 139);
     text("everything is so loud", random(windowWidth), random(windowHeight));
     text("no", random(windowWidth), random(windowHeight));
