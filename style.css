@@ -1,0 +1,285 @@
+html{
+    box-sizing: border-box;
+    background-color: #CF4B30;
+    
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 78px;
+    padding-top: 20%;
+  
+}
+
+h2{
+    margin: auto;
+    text-align: center;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 78px;
+    padding-top: 5%;
+    
+  
+}
+
+.boxed {
+    margin: auto;
+    margin-top: 3%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 35%;
+    /* width: 50%; */
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+
+
+
+  }
+
+a{
+    color: black; 
+    text-decoration: none; 
+  }
+a:hover{
+    color:#C4B18B; 
+}
+    
+
+.center {
+   margin: auto;
+   text-align: center;
+   padding-left: 90%;
+   font-size: 78px;
+   font-family: 'M PLUS 1 Code', sans-serif;
+   padding-top: -10%;
+   padding-left: 20%;
+   
+  }
+
+.startbutton{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+    padding-top: 10%;
+   
+}
+
+.nextbutton{
+    margin: auto;
+    text-align:center;
+    padding-top: 5%;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+}
+
+.next{
+    position: absolute;
+    margin: auto;
+    text-align:center;
+    padding-left: 48%; 
+    padding-top: 43%;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+}
+
+
+
+
+
+.img{
+    /* position: absolute; */
+    margin: auto;
+    margin-left: 20%;
+    font-size: 78px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+
+} 
+
+
+/* .sketch1{
+left: 10px;
+} */
+
+.within{
+ 
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    padding-top: 40%;
+    padding-left: 44%;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+   
+
+}
+
+.vent{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 90%;
+    left: 48%;
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+   
+}
+
+.finish{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    padding-top: 45%;
+    padding-left: 45%;
+   text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 36px;
+    white-space: nowrap;
+     
+}
+
+.type{
+position:absolute;
+margin: auto;
+padding-left: 25%;
+padding-top: 10%;
+animation-name: blur;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;  
+}
+
+@keyframes blur {
+    0%, 50% { 
+      transform: translateY(0em)
+    }
+    100%   { 
+    opacity: 1; 
+    filter: blur(10px);
+    
+    }
+    100% { 
+    opacity: 0; 
+    filter: blur(0px);
+    }
+}
+
+.slide {
+position: absolute;
+margin: auto;
+animation-name: move;
+animation-duration: 20s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+text-decoration: none;
+color: black;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-size: 20px;
+white-space: nowrap;
+}
+
+@keyframes move{
+    from{
+left: -100px;
+    }
+    to{
+left: 1800px;
+    }
+}
+
+.slide1{
+    position: absolute;
+    margin: auto;
+    animation-name: move;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
+    text-decoration: none;
+    animation-fill-mode: forwards;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    }
+    
+    @keyframes move{
+        from{
+    left: -1000px;
+        }
+        to{
+    left: 1800px;
+        }
+    }
+
+    /* .sketch2{
+    width: 150%;
+
+   
+    } */
+
+    .girl{
+        position: absolute;
+        margin: auto;
+        padding-left: 38%;
+        padding-top: 20%;
+    } 
+
+    .tv{
+    position: absolute;
+    /* width: 20%; */
+    padding-left: 43%;
+    padding-top: 16%;
+}
+
+@media only screen and (max-width: 960px){
+  
+  
+  
+    html {
+        font-size: 70%; 
+        width: 100%;
+        text-align: left;
+        
+    }
+
+    .boxed{
+        width:50%;
+    }
+
+    /* .sketch2{
+        width: 10%;
+    } */
+   
+    
+    
+  @media only screen and (max-width: 660px){
+   
+  
+  
+    } 
+   
+    
+    html {
+        font-size: 80%;    
+    }
+  
+  
+  }
+
+
