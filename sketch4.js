@@ -52,16 +52,16 @@ function keyPressed() {
       random(windowWidth),
       random(windowHeight)
     );
-    text("your safe here", random(windowWidth), random(windowHeight));
-    text("am i in the right place", random(windowWidth), random(windowHeight));
+    text("you're safe here", random(windowWidth), random(windowHeight));
+    text("am I in the right place", random(windowWidth), random(windowHeight));
     text("i wanna lay in the sun", random(windowWidth), random(windowHeight));
-    text("doesnt matter", random(windowWidth), random(windowHeight));
+    text("doesn't matter", random(windowWidth), random(windowHeight));
     text("stop lighting everything on fire", random(windowWidth), random(windowHeight));
-    text("do you feel at home", random(windowWidth), random(windowHeight));
+    text("do you feel at home in the world?", random(windowWidth), random(windowHeight));
     text("no rain no flowers", random(windowWidth), random(windowHeight));
-    text("its fine", random(windowWidth), random(windowHeight));
+    text("it's fine", random(windowWidth), random(windowHeight));
     text("no", random(windowWidth), random(windowHeight));
-    text("home is only a concept", random(windowWidth), random(windowHeight));
+    text("home is a concept", random(windowWidth), random(windowHeight));
 
   }
 }
